@@ -49,16 +49,17 @@
         }
         .instagram, .mail {
             border: 3px solid #ffffff;
-            padding: 20px;
-            width: 200px;
+            padding: 10px;
+            width: 80%; /* 80% der Bildschirmbreite */
             border-radius: 10px;
             text-align: center;
-            margin: 30px auto; /* Zentriert das Element horizontal und 30px Abstand nach oben und unten */
+            margin: 20px auto; /* Zentriert das Element horizontal und 20px Abstand nach oben und unten */
         }
         a:link {
             color: inherit;
             text-decoration: none;
         }
+        /* Besuchte Links */
         a:visited {
             color: inherit;
             text-decoration: none;
@@ -66,14 +67,6 @@
         .hidden {
             color: #6e6363;
             font-size: small;
-        }
-
-        /* Media Query für kleinere Bildschirme */
-        @media only screen and (max-width: 600px) {
-            .instagram, .mail {
-                width: 90%; /* Ändert die Breite auf 90% der Bildschirmbreite */
-                margin: 20px auto; /* Zentriert das Element horizontal und 20px Abstand nach oben und unten */
-            }
         }
     </style>
 </head>

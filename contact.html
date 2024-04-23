@@ -7,13 +7,49 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="icons/css/all.min.css">
     <style>
-        /* Hier können Sie zusätzliches CSS für die mobile Optimierung hinzufügen */
-        /* Zum Beispiel: */
-        /* @media only screen and (max-width: 600px) { */
-        /*     .instagram, .mail { */
-        /*         text-align: center; */
-        /*     } */
-        /* } */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #444;
+            color: #fff;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .instagram, .mail {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .mail {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media only screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+        }
     </style>
 </head>
 <body>
@@ -21,17 +57,17 @@
         <h1>Insomnia</h1>
     </header>
     <nav>
-        <a href="index.html" title="Startseite"><i class="fa-solid fa-house"></i></a> |
-        <a href="members.html" title="Mitglieder"><i class="fa-solid fa-user"></i></a> |
+        <a href="index.html" title="Startseite"><i class="fa-solid fa-house"></i></a>
+        <a href="members.html" title="Mitglieder"><i class="fa-solid fa-user"></i></a>
         <a href="news.html" title="Aktuelles"><i class="fa-solid fa-newspaper"></i></a>
     </nav>
 
     <div class="instagram">
-       <a href="https://www.instagram.com/insomnia.official2024/"><i class="fa-brands fa-instagram fa-10x"></i> </a> 
+       <a href="https://www.instagram.com/insomnia.official2024/"><i class="fa-brands fa-instagram fa-2x"></i></a> 
     </div>
     <div class="mail">
         <div id="textToCopy" class="hidden">insomnia.official2024@gmail.com</div>
-        <i class="fas fa-envelope fa-10x" onclick="copyText()" style="cursor: pointer;"></i>
+        <i class="fas fa-envelope fa-2x" onclick="copyText()" style="cursor: pointer;"></i>
         
         <script>
         function copyText() {

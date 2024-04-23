@@ -8,47 +8,66 @@
     <link rel="stylesheet" href="icons/css/all.min.css">
     <style>
         body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
+            background-color: #6e6363;
+            color: #ffffff;
         }
         header {
+            background-color: #a33131;
+            color: #ffffff;
+            padding: 11px;
             text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: #fff;
         }
         nav {
-            text-align: center;
-            padding: 10px;
-            background-color: #444;
+            background-color: #5c2222;
             color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
         }
         nav a {
             color: #fff;
             text-decoration: none;
-            margin: 0 10px;
+            padding: 0 10px;
         }
-        .instagram, .mail {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .mail {
-            margin-bottom: 20px;
+        nav a:hover {
+            text-decoration: underline;
         }
         footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
+            background-color: #5c2222;
             color: #fff;
+            padding: 10px;
+            text-align: center;
             position: fixed;
             bottom: 0;
             width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
         }
-        @media only screen and (max-width: 600px) {
-            nav {
-                flex-direction: column;
-            }
+        .instagram, .mail {
+            border: 3px solid #ffffff;
+            padding: 20px;
+            width: 200px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 100px auto 30px; /* 100px Abstand nach oben, auto für zentrierte Positionierung horizontal, 30px Abstand nach unten */
+            margin-left: 800px; /* Verschiebt das Element um 300px nach rechts */
+        }
+        a:link {
+            color: inherit; /* Erbt die Farbe vom übergeordneten Element */
+            text-decoration: none; /* Entfernt die Unterstreichung */
+        }
+        /* Besuchte Links */
+        a:visited {
+            color: inherit; /* Erbt die Farbe vom übergeordneten Element */
+            text-decoration: none; /* Entfernt die Unterstreichung */
+        }
+        .hidden {
+            color: #6e6363;
+            font-size: small;
         }
     </style>
 </head>

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6e6363;
+    color: #ffffff;
+}
+header {
+    background-color: #a33131;
+    color: #ffffff;
+    padding: 11px;
+    text-align: center;
+}
+nav {
+    background-color: #5c2222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #5c2222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+a:link {
+    color: inherit; /* Erbt die Farbe vom übergeordneten Element */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+}
+
+/* Besuchte Links */
+a:visited {
+    color: inherit; /* Erbt die Farbe vom übergeordneten Element */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+}
+.haupttext {
+    border: 3px solid #ffffff;
+    padding: 20px;
+    width: 320px; /* Breite erhöht auf 300px */
+    border-radius: 20px;
+    text-align: center;
+    margin: 100px auto 30px; /* 100px Abstand nach oben, auto für zentrierte Positionierung horizontal, 30px Abstand nach unten */
+    margin-left: 770px; /* Verschiebt das Element um 700px nach rechts */
+}
+

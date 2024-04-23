@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Zentriere Elemente vertikal */
+}
+
+.maxim, .emil , .odia, .lennox, .lada, .loreley {
+    border: 3px solid #ccc;
+    background-color: #5c2222;
+    padding: 20px;
+    text-decoration: none;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px; /* Füge Abstand um die Elemente hinzu */
+    margin: 100px 10px 10px; /* Mehr Abstand nach oben, weniger nach unten, und etwas Abstand seitlich */
+}
+
+header {
+    background-color: #a33131;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6e6363;
+    color: #ffffff;
+}
+nav {
+    background-color: #5c2222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #5c2222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.memberlogo {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.member {
+    position: relative;
+    margin-bottom: 20px;
+}
+.description {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    white-space: nowrap;
+}
+.member:hover .description {
+    display: block;
+}
+.member h2 {
+    margin-bottom: 5px;
+}
+.member img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* Nicht besuchte Links */
+a:link {
+    color: inherit; /* Erbt die Farbe vom übergeordneten Element */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+}
+
+/* Besuchte Links */
+a:visited {
+    color: inherit; /* Erbt die Farbe vom übergeordneten Element */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+}
